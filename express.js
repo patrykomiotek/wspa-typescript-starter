@@ -13,6 +13,11 @@ app.get('/users', (req, res) => {
   res.json({ firstName: 'John', lastName: 'Smith', age: 55 });
 });
 
+app.get('/users/1', (req, res) => {
+    res.status(200);
+    res.json({ firstName: 'Eve' });
+  });
+
 app.listen(8000, () => {
   console.log('CORS-enabled web server listening on port 8000');
 });
