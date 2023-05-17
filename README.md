@@ -1,3 +1,8 @@
+# Install TypeScript globally
+Not recommended, but if you don't have other way ;)
+
+npm install -g typescript
+
 # Cloning repository
 
 git clone https://github.com/patrykomiotek/wspa-typescript-starter
